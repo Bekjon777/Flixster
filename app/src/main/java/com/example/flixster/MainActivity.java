@@ -11,7 +11,6 @@ import com.codepath.asynchttpclient.AsyncHttpClient;
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler;
 import com.example.flixster.adapter.MovieAdapter;
 import com.example.flixster.models.Movies;
-import com.facebook.stetho.common.ArrayListAccumulator;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -63,6 +62,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
-
 }
